@@ -1,0 +1,11 @@
+#spring.application.name=userservice
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/restaurantdb
+    username: postgres
+    password: 12345678
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
